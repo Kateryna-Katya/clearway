@@ -424,3 +424,22 @@ font-family: "Plus Jakarta Sans", sans-serif;
     margin-top: 16px;
     margin-bottom: 12px;
 }
+.design-text-wrapper{
+    margin-top: 30px;
+    border: 1px solid rgba(142, 81, 255, 0.3);
+        border-radius: 16px;
+        padding: 1px;
+        width: 368px;
+        height: auto;
+        background: linear-gradient(135deg, rgba(142, 81, 255, 0.1) 0%, rgba(0, 187, 167, 0.1) 100%);
+        margin-left: -7px;
+        padding: 25px;
+}
+.design-text-one{
+    font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.75;
+        color: #f1f5f9;
+        margin-bottom: 12px;
+}
