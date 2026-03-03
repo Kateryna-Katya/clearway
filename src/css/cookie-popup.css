@@ -1,0 +1,119 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 30px;
+    left: 48%;
+    transform: translateX(-48%);
+    padding: 89px 32px 35px;
+box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(135deg, rgba(29, 41, 61, 0.95) 0%, rgba(15, 23, 43, 0.95) 100%);
+    border: 1px solid rgba(0, 187, 167, 0.3);
+        border-radius: 24px;
+    z-index: 1000;
+    width: 330px;
+    height: auto;
+    display: none;
+}
+.popup-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.popup-title{
+    font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.33333;
+        color: #f1f5f9;
+        margin-bottom: 12px;
+        text-align: left;
+}
+.popup-span{
+    color: #00e5ff;
+}
+.cookie-class {
+font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #cad5e2;
+    width: 260px;
+}
+.popup-link{
+    text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #00d5be;
+}
+.cookie-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+width: 264px;
+    height: 84px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-accept {
+border-radius: 28px;
+    width: 264px;
+    height: 36px;
+    padding: 8px 98px;
+box-shadow: 0 4px 6px -4px rgba(0, 187, 167, 0.2), 0 10px 15px -3px rgba(0, 187, 167, 0.2);
+    background: linear-gradient(90deg, #00bba7 0%, #00b8db 100%);
+    box-sizing: border-box;
+    border: none;
+font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    color: #0f172b;
+
+}
+
+.btn-decline {
+
+background: rgba(49, 65, 88, 0.5);
+border: 1px solid #45556c;
+    border-radius: 28px;
+    padding: 8px 98px;
+    width: 264px;
+    height: 36px;
+font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    color: #e2e8f0;
+    box-sizing: border-box;
+    background-color: inherit;
+}
+
+
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 40px;
+width: 896px;
+        height: auto;
+    }
+
+    .popup-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .cookie-class {
+    width: 420px;
+    }
+
+    .cookie-buttons {
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+}
