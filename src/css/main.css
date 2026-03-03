@@ -570,6 +570,9 @@ display: inline-block;
  }
 }
 /* Frequently Asked Questions */
+.faq-section{
+    background: linear-gradient(180deg, #020618 0%, #0f172b 50%, #020618 100%);
+}
 .faq-span{
 color: #00e5ff;
 }
