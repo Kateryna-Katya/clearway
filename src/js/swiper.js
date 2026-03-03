@@ -56,7 +56,6 @@ function makeResponsiveSwiper({
       pagination: {
         el: paginationEl,
         clickable: true,
-        // как на фото чаще всего это bullets (точки)
         type: "bullets",
       },
     });
@@ -79,7 +78,7 @@ function makeResponsiveSwiper({
   // changes
   const onChange = () => sync();
   if (mq.addEventListener) mq.addEventListener("change", onChange);
-  else mq.addListener(onChange); // Safari старый
+  else mq.addListener(onChange); 
 }
 
 makeResponsiveSwiper({

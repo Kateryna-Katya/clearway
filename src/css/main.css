@@ -468,3 +468,98 @@ width: 380px !important;
       margin-top: -284px;
    }
 }
+/* When the Network */
+.when-section{
+    background-image: url("/img/when/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.when-span{
+display: inline-block;
+    background: linear-gradient(90deg, #00D5BE 0%, #A684FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.when-text{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #cad5e2;
+    text-align: center;
+}
+.when-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.when-item{
+    border: 1px solid rgba(49, 65, 88, 0.5);
+        border-radius: 16px;
+        padding: 24px;
+        width: 330px;
+        height: 98px;
+        background: rgba(29, 41, 61, 0.4);
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-weight: 500;
+            font-size: 16px;
+}
+.when-container{
+    padding-top: 10px;
+}
+.when-wrapper{
+    border: 1px solid rgba(0, 187, 167, 0.3);
+        border-radius: 16px;
+        padding: 33px 33px 1px;
+        width: 330px;
+        height: 225px;
+        background: linear-gradient(135deg, rgba(29, 41, 61, 0.5) 0%, rgba(15, 23, 43, 0.5) 100%);
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+            line-height: 1.625;
+}
+.when-color-text{
+    color: #00d5be;
+}
+@media only screen and (min-width: 1440px) {
+ .when-section{
+    background-image: url("/img/when/desk.png");
+ }
+ .when-container{
+    padding-top: 24px;
+ }
+ .when-title{
+    font-size: 48px;
+ }
+ .when-text{
+    margin-top: 64px;
+ }
+ .when-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .when-item{
+    width: 500px;
+        height: 98px;
+ }
+ .when-wrapper{
+    width: 768px;
+        height: 139px;
+        padding: 33px;
+        margin-top: 48px;
+ }
+}
